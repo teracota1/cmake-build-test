@@ -1,0 +1,26 @@
+{
+  "name": "cmake-build-test",
+  "displayName": "CMake Build & Test",
+  "description": "Сборка и запуск тестов CMake по Ctrl+Alt+D",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [],
+  "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.85.0",
+    "@types/node": "^20.x",
+    "typescript": "^5.x",
+    "@vscode/vsce": "^2.22.0"
+  }
+}
