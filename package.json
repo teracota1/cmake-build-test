@@ -8,9 +8,26 @@
   "engines": {
     "vscode": "^1.85.0"
   },
-  "categories": ["Other"],
+  "categories": [
+    "Other"
+  ],
   "activationEvents": [],
   "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cmakeBuildTest.run",
+        "title": "CMake: Build & Test"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "cmakeBuildTest.run",
+        "key": "ctrl+alt+d",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
@@ -18,9 +35,9 @@
     "package": "vsce package"
   },
   "devDependencies": {
+    "@types/node": "^20.19.43",
     "@types/vscode": "^1.85.0",
-    "@types/node": "^20.x",
-    "typescript": "^5.x",
-    "@vscode/vsce": "^2.22.0"
+    "@vscode/vsce": "^2.22.0",
+    "typescript": "^5.x"
   }
 }
