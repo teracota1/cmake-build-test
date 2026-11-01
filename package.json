@@ -39,5 +39,8 @@
     "@types/vscode": "^1.85.0",
     "@vscode/vsce": "^2.22.0",
     "typescript": "^5.x"
+  },
+  "dependencies": {
+    "chart.js": "^4.6.1"
   }
 }
