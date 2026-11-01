@@ -23,7 +23,7 @@
     "keybindings": [
       {
         "command": "cmakeBuildTest.run",
-        "key": "ctrl+alt+d",
+        "key": "ctrl+alt+c",
         "when": "editorTextFocus"
       }
     ]
