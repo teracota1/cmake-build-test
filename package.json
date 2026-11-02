@@ -3,8 +3,12 @@
   "displayName": "CMake Build & Test",
   "description": "Сборка и запуск тестов CMake с выводом статистики в терминал",
   "version": "0.0.1",
-  "publisher": "your-name",
+  "publisher": "teracota1",
   "license": "MIT",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/teracota1/cmake-build-test.git"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
