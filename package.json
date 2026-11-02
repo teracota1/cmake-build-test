@@ -1,7 +1,7 @@
 {
   "name": "cmake-build-test",
   "displayName": "CMake Build & Test",
-  "description": "Сборка и запуск тестов CMake с визуализацией статистики",
+  "description": "Сборка и запуск тестов CMake с выводом статистики в терминал",
   "version": "0.0.1",
   "publisher": "your-name",
   "license": "MIT",
@@ -18,21 +18,12 @@
       {
         "command": "cmakeBuildTest.run",
         "title": "CMake: Build & Test"
-      },
-      {
-        "command": "cmakeBuildTest.dashboard",
-        "title": "CMake: Show Test Dashboard"
       }
     ],
     "keybindings": [
       {
         "command": "cmakeBuildTest.run",
         "key": "ctrl+alt+c",
-        "when": "editorTextFocus"
-      },
-      {
-        "command": "cmakeBuildTest.dashboard",
-        "key": "ctrl+alt+s",
         "when": "editorTextFocus"
       }
     ]
@@ -48,8 +39,5 @@
     "@types/vscode": "^1.85.0",
     "@vscode/vsce": "^2.22.0",
     "typescript": "^5.x"
-  },
-  "dependencies": {
-    "chart.js": "^4.6.1"
   }
 }
