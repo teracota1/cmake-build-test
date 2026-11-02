@@ -5,12 +5,13 @@
 ## [0.0.1] — 2026-11-02
 
 ### Добавлено
-- Базовая структура расширения и настройки компиляции.
+- Базовая структура расширения.
 - Команда `cmakeBuildTest.run` — сборка и тестирование.
-- Горячая клавиша `Ctrl+Alt+C` с условием `editorTextFocus`.
-- JSDoc-комментарии к каждой функции с примером вызова.
-- Сбор статистики (JUnit XML) и вывод цветного ASCII-графика в терминал.
-- Обновление документации (README, docs/).
+- Горячая клавиша `Ctrl+Alt+C`.
+- JSDoc-комментарии к каждой функции.
+- Сбор статистики (JUnit XML) и вывод цветного ASCII-графика.
+- **Умное определение пути:** сборка проекта в папке активного терминала.
+- Обновление документации.
 
 ### Коммиты
 
@@ -37,3 +38,9 @@
 | `4dbeb83` | `chore: update project config` |
 | `e85cc57` | `docs: fix README rendering` |
 | `3b24ca5` | `docs: finalize API reference` |
+| `98176e6` | `docs: finalize overview description` |
+| `83d94c3` | `chore: add MIT license` |
+| `7aab350` | `docs: update changelog with actual hashes` |
+| `f3586c3` | `docs: simplify README` |
+| `8b49a8c` | `chore: add repository url to package.json` |
+| `da373fe` | `feat: build project in active terminal directory` |
